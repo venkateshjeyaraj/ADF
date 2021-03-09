@@ -126,6 +126,9 @@
 			}
 		],
 		"concurrency": 1,
+		"folder": {
+			"name": "Ingest"
+		},
 		"annotations": [],
 		"lastPublishTime": "2021-02-26T23:30:46Z"
 	},
