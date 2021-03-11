@@ -31,10 +31,6 @@
 			"type": "string",
 			"defaultValue": "@{linkedService().sourceBaseURL}"
 		},
-		"tr_population_data_arrived_properties_typeProperties_scope": {
-			"type": "string",
-			"defaultValue": "/subscriptions/e9cd1bd8-3994-47b0-89e0-d390d179f663/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/vjecovidreporting"
-		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -97,9 +93,6 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
-					},
-					"tr_population_data_arrived_properties_typeProperties_scope": {
-						"value": "[parameters('tr_population_data_arrived_properties_typeProperties_scope')]"
 					}
 				}
 			},
