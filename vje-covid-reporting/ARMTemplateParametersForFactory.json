@@ -23,7 +23,7 @@
 		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
 			"value": "@{linkedService().sourceBaseURL}"
 		},
-		"tr_ingest_population_data_properties_typeProperties_scope": {
+		"tr_population_data_arrived_properties_typeProperties_scope": {
 			"value": "/subscriptions/e9cd1bd8-3994-47b0-89e0-d390d179f663/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/vjecovidreporting"
 		}
 	}
